@@ -49,3 +49,13 @@ setInterval(function () {
     `h:mm:ss`
   )} <small>${ParisTime.format("A")}</small>`;
 }, 1000);
+
+function updateCity(event) {
+  let cityTimeZone = event.target.value;
+  console.log(cityTimeZone);
+}
+
+updateTime();
+
+let citiesSelectElement = document.querySelector("#city");
+citiesSelectElement.addEventListener("change", updateCity);
