@@ -9,7 +9,7 @@ setInterval(function () {
   losAngelesTimeElement.innerHTML = `${losAngelesTime.format(
     `h:mm:ss`
   )} <small>${losAngelesTime.format("A")}</small>`;
-});
+}, 1000);
 
 //Sydney
 setInterval(function () {
@@ -22,7 +22,7 @@ setInterval(function () {
   sydneyTimeElement.innerHTML = `${sydneyTime.format(
     `h:mm:ss`
   )} <small>${sydneyTime.format("A")}</small>`;
-});
+}, 1000);
 
 //Tokyo
 setInterval(function () {
@@ -35,7 +35,7 @@ setInterval(function () {
   tokyoTimeElement.innerHTML = `${tokyoTime.format(
     `h:mm:ss`
   )} <small>${tokyoTime.format("A")}</small>`;
-});
+}, 1000);
 
 //Paris
 setInterval(function () {
@@ -48,4 +48,4 @@ setInterval(function () {
   ParisTimeElement.innerHTML = `${ParisTime.format(
     `h:mm:ss`
   )} <small>${ParisTime.format("A")}</small>`;
-});
+}, 1000);
